@@ -1,0 +1,11 @@
+{
+  "name": "proxy",
+  "version": "2.0.0",
+  "description": "Web Proxy for the L8 Network.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Connor Hay",
+  "license": "UNLICENSED"
+}
