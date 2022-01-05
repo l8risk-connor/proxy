@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>Title</title>
+    <style>
+        .header {
+            height: 83px;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            background-color: #acd866;
+            border-bottom: 1px solid black;
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+
+        .apps-button {
+            width: 60px;
+            margin-bottom: 10px;
+        }
+
+        .apps-button .caption {
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+        }
+
+        .material-icons.md-18 { font-size: 18px; }
+        .material-icons.md-24 { font-size: 24px; }
+        .material-icons.md-36 { font-size: 36px; }
+        .material-icons.md-48 { font-size: 48px; }
+        .material-icons.md-60 {
+            font-size: 60px;
+        }
+        .material-icons.md-60.app-icon {
+            margin-bottom: -10px;
+        }
+
+        .apps-button .caption {
+            margin-top: -10px;
+        }
+
+        #column-2 {
+            height: 63px;
+        }
+
+        .l8-logo {
+            height: 100%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="header">
+            <div id="column-1">
+                <div class="apps-button">
+                <span class="material-icons md-60 app-icon">
+                    apps
+                </span>
+                    <div class="caption">Apps</div>
+                </div>
+            </div>
+
+            <div id="column-2">
+                <img src="../../l8.png" alt="" class="l8-logo"/>
+            </div>
+        </div>
+    </nav>
+
+</body>
+</html>
