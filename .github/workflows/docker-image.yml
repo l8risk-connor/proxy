@@ -15,11 +15,11 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-    - run: docker build . --file Dockerfile --tag l8-proxy:$(date +%s)
+      run: docker build . --file Dockerfile --tag l8-proxy:$(date +%s)
     
     
   deploy:
     runs-on: ubuntu-latest
     steps:
     - name: Deploy the Docker container
-    - run: docker run -d --restart always -p 5000:5000 l8-proxy:$(date +%s)
+      run: docker run -d --restart always -p 5000:5000 l8-proxy:$(date +%s)
